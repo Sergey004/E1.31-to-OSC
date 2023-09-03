@@ -14,3 +14,11 @@ OpenRGB setup
 ![image](https://github.com/Sergey004/E1.31-to-OSC/assets/11889498/ada2f7c4-2695-4c1b-b664-ed825aa5edcb)
 
 Next, it's up to your imagination to do whatever you want with this data.
+
+Values transferred via OSC
+
+|Var name|Type|Value|
+|---|---|---|
+|Rcolor|int|0-255|
+|Gcolor|int|0-255|
+|Bcolor|int|0-255|
