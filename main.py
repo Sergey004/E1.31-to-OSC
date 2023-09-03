@@ -25,9 +25,9 @@ def callback(packet):  # packet type: sacn.DataPacket
     print(Rcolor)
     print(Gcolor)
     print(Bcolor)
-    client.send_message("/avatar/parameters/Rcolor", Rcolor)
-    client.send_message("/avatar/parameters/Gcolor", Gcolor)
-    client.send_message("/avatar/parameters/Bcolor", Bcolor)
+    client.send_message("/avatar/parameters/Rcolor", float(Bcolor))
+    client.send_message("/avatar/parameters/Gcolor", float(Gcolor))
+    client.send_message("/avatar/parameters/Bcolor", float(Bcolor))
 
 # optional: if multicast is desired, join with the universe number as parameter
 receiver.join_multicast(1)

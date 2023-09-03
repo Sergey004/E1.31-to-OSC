@@ -19,6 +19,6 @@ Values transferred via OSC
 
 |Var name|Type|Value|
 |---|---|---|
-|Rcolor|int|0-255|
-|Gcolor|int|0-255|
-|Bcolor|int|0-255|
+|Rcolor|float|0-255|
+|Gcolor|float|0-255|
+|Bcolor|float|0-255|
