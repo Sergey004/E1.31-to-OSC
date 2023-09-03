@@ -18,7 +18,7 @@ client = udp_client.SimpleUDPClient(args.ip, args.port)
 @receiver.listen_on('universe', universe=1)  # listens on universe 1
 def callback(packet):  # packet type: sacn.DataPacket
     data = packet.dmxData # print the received DMX data
-    data = data[:9]
+    data = data[:3]
     Rcolor = data[0]
     Gcolor = data[1]
     Bcolor = data[2] 
