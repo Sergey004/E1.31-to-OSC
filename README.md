@@ -1,6 +1,6 @@
 # Description:
 
-TL;DR: Now **you** walking RGB controller (Unfortunately with only one virtual light LED)
+TL;DR: Now **you** walking RGB controller (Unfortunately with only one virtual LED)
 
 # Setup 
 
