@@ -30,3 +30,5 @@ Values transferred via OSC
 |Rcolor|float|0-1|
 |Gcolor|float|0-1|
 |Bcolor|float|0-1|
+
+Note: this python script is OS independent and can run on any OS where is python, pip system and TCP/IP stack support, including Android (In termux environment)
